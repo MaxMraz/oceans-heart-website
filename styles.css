@@ -1,0 +1,70 @@
+/* #hero_image {
+  height: 100%;
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+  #hero_image img {
+    width: 100%;
+  }
+  @media (max-aspect-ratio: 5/4) {
+    #hero_image img {
+      height: 100%;
+      object-fit: cover;
+    }
+  } */
+
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+:root {
+	--yellow: #e0c860;
+	--green: #3e5022;
+	--white: #D7D3D2;
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+	line-height: 1.618;
+	/* list-style: none; */
+	font-family: 'Rubik', sans-serif;
+	/* text-align: center; */
+	text-decoration: none;
+}
+
+body, html {
+  height: 100%;
+  background-color: #2a2227;
+	color: #fae8d0;
+}
+
+a {
+	color: #fae8d0;
+	margin: 4px 12px;
+	padding: 2px 8px;
+	border: 1px #fae8d0 solid;
+	border-radius: 2px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+footer {
+	text-align: center;
+	border: 1px solid #fae8d0;
+	border-width: 1px 0px 0px;
+}
+
+.decoratedTitle {
+	/* background-image: url("resources/leaves-title-bg.png"); */
+	background-repeat: no-repeat;
+	background-size: contain;
+}

@@ -1,0 +1,118 @@
+#hero_image {
+  background-image: url("resources/hero_image_3-blurred.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  #hero_image a {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
+
+#title_image {
+  max-height: 25%;
+  max-width: 80%;
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+}
+
+#heroImage2 {
+  /* background-image: url("resources/hero_image_2.png");
+  width: 100%;
+  height:auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; */
+  height: auto;
+}
+
+  #heroImage2 img {
+    width: 100%;
+    height: auto;
+  }
+
+#videoContainer{
+	width: 100%;
+	background-image: url("resources/leaves-video-border.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+@media (min-aspect-ratio: 5/4) {
+	#videoWrapperWrapper {
+		width: 75%;
+		margin: 0 auto;
+	}
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	margin: auto;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#content {
+  border: 30px solid transparent;
+  padding: 15px;
+  border-image: url('resources/vert-border-2.png') 100;
+  border-image-repeat: round;
+  border-width:100% 0;
+}
+
+.screenshotGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 2em 2em;
+}
+
+  .screenshotGrid img {
+    width: 100%;
+  }
+
+#features {
+  text-align: center;
+}
+
+ul {
+  list-style: inside;
+  list-style-type: disc;
+  /* list-style-image: url('resources/marker_icon.png'); */
+}
+  ul li {
+    margin-bottom: 1em;
+  }
+
+#contact {
+  text-align: center;
+}
+
+  #contact a {
+    font-size: 20px;
+    padding: 4px 20px;
+  }
+
+#contactDecorations {
+  display: inline-block;
+}
+
+  #contactLeavesLeft {
+    transform: scaleX(-1);
+  }
+  #contactLeavesLeft, #contactLeavesRight {
+    max-width: 20vw;
+  }
